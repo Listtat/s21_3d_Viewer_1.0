@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/changeli/C8
+-- Configuring done
+CMake Error at CMakeLists.txt:8 (add_executable):
+  Cannot find source file:
+
+    cub.obj
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: C8
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
